@@ -20,7 +20,13 @@
   </head>
   <body>
     <include src="./partials/header.html"></include>
-    <include src="./partials/sidebar.html"></include>
+    <div class="container">
+      <include src="./partials/sidebar.html"></include>
+      <div class="section">
+        <include src="./partials/about.html"></include>
+        <include src="./partials/portfolio.html"></include>
+      </div>
+    </div>
 
     <script src="./index.js" type="module"></script>
     <script src="./js/accordion.js" type="module"></script>

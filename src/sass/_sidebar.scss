@@ -1,27 +1,12 @@
 .sidebar{
-    height: 100vh;
-    width: 130px;
-    position:static;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+    margin-right: 0px;
     z-index: 1;
     top: 80px;
     border-right: solid 1px black;
     background-color: rgb(39, 38, 38);
-    
-    @media screen and (min-width: 768px) {
-        width: 220px;
-        height: 100vh;
-    }
-    @media screen and (min-width: 1200px) {
-        width: 330px;
-        height: 100vh;
-    }
-}
-
-.sidebar__img{
-    // margin-left: 10px;
-    // margin-right: 10px;
-    width:auto;
-    height: auto;    
 }
 
 .sidebar__title{
@@ -42,16 +27,18 @@
 }
 
 .contacts__item{
+    align-items:center;
     margin-top: 10px;
 }
 
 .contacts__link{
+    
     color: white;
     font-family: Roboto sans-serif;
     font-weight: 500;
     font-size: x-small;
     @media screen and (min-width: 768px) {
-        font-size: medium
+        font-size: medium;
     }    
     @media screen and (min-width: 1200px) {
         font-size: large;

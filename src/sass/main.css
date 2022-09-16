@@ -52,12 +52,38 @@ button {
   pointer-events: none;
 }
 
-body {
-  background-color: dimgrey;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-family: Raleway sans-serif;
+  font-weight: 500;
+  font-size: x-small;
+  text-decoration: underline;
+  color: whitesmoke;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: medium;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .title {
+    font-size: large;
+  }
+}
+
+.section {
+  flex-direction: column;
+  width: 70%;
+  padding: 20px;
+  text-align: left;
+  background-color: rgb(46, 46, 46);
 }
 
 .header {
-  font-family: Raleway sans-serif;
   width: 100%;
   height: 80px;
   border-bottom: 1px solid black;
@@ -71,34 +97,19 @@ body {
 }
 
 .header__title {
+  font-family: Raleway sans-serif;
   color: rgb(36, 124, 51);
 }
 
 .sidebar {
-  height: 100vh;
-  width: 130px;
-  position: static;
+  flex-direction: column;
+  height: 100%;
+  width: 30%;
+  margin-right: 0px;
   z-index: 1;
   top: 80px;
   border-right: solid 1px black;
   background-color: rgb(39, 38, 38);
-}
-@media screen and (min-width: 768px) {
-  .sidebar {
-    width: 220px;
-    height: 100vh;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .sidebar {
-    width: 330px;
-    height: 100vh;
-  }
-}
-
-.sidebar__img {
-  width: auto;
-  height: auto;
 }
 
 .sidebar__title {
@@ -125,6 +136,7 @@ body {
 }
 
 .contacts__item {
+  align-items: center;
   margin-top: 10px;
 }
 
@@ -236,6 +248,23 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .skills__text {
+    font-size: large;
+  }
+}
+
+.about__text {
+  font-family: Roboto sans-serif;
+  font-weight: 500;
+  font-size: x-small;
+  color: whitesmoke;
+}
+@media screen and (min-width: 768px) {
+  .about__text {
+    font-size: medium;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about__text {
     font-size: large;
   }
 }/*# sourceMappingURL=main.css.map */
