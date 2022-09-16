@@ -1,8 +1,117 @@
-<div>
-  <picture>
-    <source
-      srcset="./img/photo.jpg 1x, ./img/photo@2x.jpg 2x"
-      media="(min-width:1280px)"
-    />
-  </picture>
+<div class="sidebar">
+  <div class="sidebar__img">
+    <picture>
+      <source
+        srcset="./img/photo.jpg 1x, ./img/photo@2x.jpg 2x"
+        media="(min-width:1280px)"
+      />
+      <source
+        srcset="./img/photo_t.jpg 1x, ./img/photo_t@2x.jpg 2x"
+        media="(min-width:768px)"
+      />
+      <source
+        srcset="./img/photo_m.jpg 1x, ./img/photo_m@2x.jpg 2x"
+        media="(min-width:468px)"
+      />
+      <img src="./img/photo.jpg" alt="Orlovskiy Pavlo" />
+    </picture>
+  </div>
+  <div class="sidebar__box">
+    <h2 class="sidebar__title">Contacts</h2>
+    <ul>
+      <li class="contacts__item">
+        <a class="contacts__link" href="mailto:Lorengreyn@gmail.com">
+          <svg class="contacts__icon">
+            <use href="./img/icons.svg#envelope"></use>
+          </svg>
+          Lorengreyn@gmail.com</a
+        >
+      </li>
+      <li class="contacts__item">
+        <a class="contacts__link" href="tel:+380677404300">
+          <svg class="contacts__icon">
+            <use href="./img/icons.svg#smartphone"></use>
+          </svg>
+          +380(67) 740 43 00</a
+        >
+      </li>
+      <li class="contacts__item">
+        <a class="contacts__link" href="tel:+380934871114">
+          <svg class="contacts__icon">
+            <use href="./img/icons.svg#smartphone"></use>
+          </svg>
+          +380(93) 487 11 14</a
+        >
+      </li>
+      <li class="contacts__item">
+        <a href="https://www.facebook.com/lorengreyn" class="contacts__link">
+          <svg class="contacts__icon">
+            <use href="./img/icons.svg#facebook"></use>
+          </svg>
+          Facebook</a
+        >
+      </li>
+      <li class="contacts__item">
+        <a
+          href="https://www.linkedin.com/in/pavel-orlovskiy-96b53855/"
+          class="contacts__link"
+        >
+          <svg class="contacts__icon">
+            <use href="./img/icons.svg#linkedin"></use>
+          </svg>
+          Linkedin</a
+        >
+      </li>
+    </ul>
+  </div>
+  <div class="sidebar__box">
+    <button class="accordion">
+      <h2 class="sidebar__title">Hard Skills</h2>
+    </button>
+    <div class="panel">
+      <ul class="sidebar__skills">
+        <li class="skills__item">HTML5</li>
+        <li class="skills__item">CSS3/SASS/SCSS</li>
+        <li class="skills__item">Javascript</li>
+        <li class="skills__item">React</li>
+        <li class="skills__item">Node.js</li>
+        <li class="skills__item">Express.js</li>
+        <li class="skills__item">REST API</li>
+        <li class="skills__item">Web Servers</li>
+        <li class="skills__item">Mongo DB</li>
+        <li class="skills__item">My/MsSQL</li>
+        <li class="skills__item">VS Code</li>
+        <li class="skills__item">GitHub</li>
+        <li class="skills__item">Figma</li>
+        <li class="skills__item">Postman</li>
+        <li class="skills__item">SendGrid</li>
+        <li class="skills__item">Docker</li>
+        <li class="skills__item">JSON</li>
+        <li class="skills__item">Mongoose</li>
+        <li class="skills__item">Webpack</li>
+        <li class="skills__item">Parcel</li>
+        <li class="skills__item">ES6+</li>
+      </ul>
+    </div>
+  </div>
+  <div class="sidebar__box">
+    <button class="accordion">
+      <h2 class="sidebar__title">Soft Skills</h2>
+    </button>
+    <div class="panel">
+      <ul class="sidebar__skills">
+        <li class="skills__item">Time Management</li>
+        <li class="skills__item">Problem Solving</li>
+        <li class="skills__item">Patience</li>
+        <li class="skills__item">Attention to detail</li>
+        <li class="skills__item">Creativity</li>
+      </ul>
+    </div>
+  </div>
+  <div class="sidebar__box">
+    <h2 class="sidebar__title">Other:</h2>
+    <p class="skills__text">
+      Nine years of experience as a system administrator
+    </p>
+  </div>
 </div>
