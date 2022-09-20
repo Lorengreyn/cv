@@ -1,6 +1,7 @@
 .sidebar{
     flex-direction: column;
     width: 30%;
+    height: 100vh;
     margin-right: 0px;
     top: 80px;
     border-right: solid 1px black;
@@ -132,4 +133,13 @@
     @media screen and (min-width: 1200px) {
         font-size: large;
     }
+}
+
+.fixed {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px;
+    align-self: flex-start;
+    height:calc(100% - 80px);
+    background-color: rgb(39, 38, 38);
 }

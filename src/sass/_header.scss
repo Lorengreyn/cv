@@ -16,3 +16,13 @@
     font-family: Raleway sans-serif;
     color: rgb(36, 124, 51);
 }
+
+.sticky {
+    height: 80px;
+    position: -webkit-sticky;
+    position: sticky;
+    align-self: flex-start;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}

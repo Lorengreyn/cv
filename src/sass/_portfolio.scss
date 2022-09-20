@@ -9,10 +9,29 @@
 
 .portfolio__item{
     display: block;
-    @media screen and (min-width: 1200px) {
-        flex-basis:  calc(100%/2 - 15px);
-        &:nth-child(2n+1){
+    border: 1px solid whitesmoke;
+    &:not(:last-child){
+        margin-bottom: 15px;
+    }
+    @media screen and (min-width:768px) and (max-width:1199px) {
+        flex-basis: calc(100% / 2 - 15px);
+    
+        &:nth-child(2n+1) {
             margin-right: 30px;
+        }
+    
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
+    @media screen and (min-width: 1200px) {
+        flex-basis:  calc(100%/3 - 10px);
+        &:nth-child(-n+3) {
+            margin-bottom: 10px;
+        }
+        
+        &:not(:nth-child(3n+1)) {
+            margin-left: 10px;
         }
     }
 }
@@ -20,27 +39,33 @@
 .portfolio__box{
     max-width: 500px;
     margin:10px 0;
+    align-items: center;
+    @media screen and (min-width: 768px) {
+    height: 100px;
+    }
 }
 .portfolio__description{
+    display: flex;    
+    text-align: left;
     color: white;
     width: 100%;
     font-size: 18px;
     line-height: 1.56;
     letter-spacing: 0.03em;
-    height: 100%;
     padding-left: 24px;
     padding-right: 24px;
 }
 
 
 .portfolio__title{
-    font-size: x-small;
+    font-size: 16px;
     color: white;
+    margin-left: 10px;
     @media screen and (min-width: 768px) {
-        font-size: medium
+        font-size: 20px;
     }
     
     @media screen and (min-width: 1200px) {
-        font-size: large;
+        font-size: 24px;
     }
 }

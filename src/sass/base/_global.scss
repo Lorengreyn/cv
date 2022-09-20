@@ -51,7 +51,7 @@ a {
 .container{
 display: flex;
 flex-wrap: wrap;
-
+background-color: rgb(39, 38, 38);
 }
 
 .title{
@@ -60,18 +60,19 @@ flex-wrap: wrap;
 	font-size: x-small;
 	text-decoration: underline;
 	color: whitesmoke;
+	
 		
 	@media screen and (min-width: 768px) {
 		font-size: medium;
 	}
 		
 	@media screen and (min-width: 1200px) {
-		font-size: large;
+		font-size: x-large;
 	}
 }
 
 .section{
 	width: 70%;
-	padding: 20px;
+	padding: 30px;
 	background-color: rgb(46, 46, 46);
 }
