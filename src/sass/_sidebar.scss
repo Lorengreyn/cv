@@ -1,13 +1,12 @@
 .sidebar{
     flex-direction: column;
-    height: 100%;
     width: 30%;
     margin-right: 0px;
-    z-index: 1;
     top: 80px;
     border-right: solid 1px black;
     background-color: rgb(39, 38, 38);
 }
+
 
 .sidebar__title{
     font-family: Raleway sans-serif;

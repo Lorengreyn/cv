@@ -1,0 +1,34 @@
+.portfolio {
+    width: 100%;
+    margin-top: 40px;
+    flex-direction: column;
+    
+        @media screen and (min-width:1200px) {
+            flex-direction: row;
+            flex-wrap: wrap;}
+}
+
+.portfolio__item{
+    @media screen and (min-width: 1200px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: calc(100%/2 + 15px);
+        &:nth-child(2n+1){
+            margin-right: 30px;
+        }
+    }
+}
+
+
+
+.portfolio__title{
+    font-size: x-small;
+    color: white;
+    @media screen and (min-width: 768px) {
+        font-size: medium
+    }
+    
+    @media screen and (min-width: 1200px) {
+        font-size: large;
+    }
+}

@@ -29,9 +29,6 @@ ul {
 a {
 	text-decoration: none;
 	font-style: normal;
-}
-
-button {
 	cursor: pointer;
 }
 
@@ -74,9 +71,7 @@ flex-wrap: wrap;
 }
 
 .section{
-	flex-direction: column;
 	width: 70%;
 	padding: 20px;
-	text-align: left;
 	background-color: rgb(46, 46, 46);
 }
