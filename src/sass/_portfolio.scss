@@ -1,17 +1,36 @@
 .portfolio {
-    margin-top: 40px;    
-       
+    margin-top: 40px;
+}
+
+.portfolio__list{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .portfolio__item{
+    display: block;
     @media screen and (min-width: 1200px) {
-        flex-basis: calc(100%/2 + 15px);
+        flex-basis:  calc(100%/2 - 15px);
         &:nth-child(2n+1){
             margin-right: 30px;
         }
     }
 }
 
+.portfolio__box{
+    max-width: 500px;
+    margin:10px 0;
+}
+.portfolio__description{
+    color: white;
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    height: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+}
 
 
 .portfolio__title{
