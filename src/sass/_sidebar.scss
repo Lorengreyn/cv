@@ -1,7 +1,7 @@
 .sidebar{
     flex-direction: column;
     width: 30%;
-    height: 100vh;
+    height: 100%;
     margin-right: 0px;
     top: 80px;
     border-right: solid 1px black;
@@ -135,11 +135,18 @@
     }
 }
 
-.fixed {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 80px;
-    align-self: flex-start;
-    height:calc(100% - 80px);
-    background-color: rgb(39, 38, 38);
+.lang{
+    display: flex;
+    align-items: baseline;
+    &::before{
+    content: none;
+}}
+
+.fa-star,.fa-star-half-stroke{
+    font-size: 14px;
+    color: aquamarine;
+}
+
+.margin{
+    margin-left: 10px;
 }
