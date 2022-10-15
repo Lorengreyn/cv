@@ -11,18 +11,21 @@
 .sidebar__title{
     font-family: Raleway sans-serif;
     font-weight: 500;
-    font-size:x-small;
+    font-size:14px;
     color: white;
     text-decoration: underline;
+    margin-left: 5px;
     @media screen and (min-width: 768px) {
-        font-size: medium}
+        font-size: 16px;}
     @media screen and (min-width: 1200px) {
-        font-size: large;}
+        font-size: 18px;}
 }
 
 .sidebar__box{
-    margin-top: 20px;
-    margin-left: 10px;
+    margin-top: 20px;}
+
+.contacts__margin{
+    margin-left: 5px;
 }
 
 .contacts__item{
@@ -31,16 +34,22 @@
 }
 
 .contacts__link{
-    
+    width: 100%;
+    height: 100%;
     color: white;
     font-family: Roboto sans-serif;
     font-weight: 500;
-    font-size: x-small;
+    font-size: 7px;
+    align-items: baseline;
     @media screen and (min-width: 768px) {
         font-size: medium;
     }    
     @media screen and (min-width: 1200px) {
         font-size: large;
+    }
+    &:hover,
+    :focus{
+        color: blue;
     }
 }
 
@@ -49,19 +58,60 @@
     fill: aquamarine;
     width: 10px;
     height: 8px;
+    margin-bottom: -1px;
+    cursor: pointer;
     @media screen and (min-width: 768px) {
         width: 16px;
         height: 12px;
+    }
+    &:hover,
+    :focus{
+        fill: blue;
+    }
+}
+
+.messenger-item{
+    padding: 0 10px;
+    @media screen and (min-width: 768px) {
+        padding: 0 15px;}
+    @media screen and (min-width: 1200px) {
+    padding: 0 30px;}
+}
+
+.messenger-link{
+    &:not(:last-child){
+        margin-right: 8px;
+    }
+    @media screen and (min-width: 768px) {
+        &:not(:last-child){
+            margin-right: 45px;
+        }}
+    @media screen and (min-width: 1200px) {
+    &:not(:last-child){
+        margin-right: 100px;
+    }}
+}
+.messenger-icon{
+    fill: aquamarine;
+    width: 20px;
+    height: 20px;
+    @media screen and (min-width: 768px) {
+        width: 30px;
+        height: 30px;
+    }
+    &:hover,
+    :focus{
+        fill: blue;
     }
 }
 
 .accordion {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
     background-color: rgb(39, 39, 39);
     cursor: pointer;
-    padding: 18px;
+    padding: 10px;
     width: 100%;
     text-align: left;
     border: none;
@@ -76,13 +126,13 @@
             content: '\02795';
             font-size: 13px;
             color: aquamarine;
-            float: right;
+            display: inline-block;
             margin-left: 5px;
             }
 }
 
 .panel {
-    padding: 0 18px;
+    padding: 0 5px;
     background-color:rgb(25, 77, 77);
     max-height: 0;
     overflow: hidden;
@@ -95,9 +145,9 @@
 
 .skills__item{
     font-family: Roboto sans-serif;
-    font-size: x-small;
+    font-size: 7px;
+    margin-bottom: 8px;
     margin-left: 10px;
-    margin-bottom: 10px;
     color: whitesmoke;
     &:first-child{
         margin-top: 10px;
@@ -108,7 +158,9 @@
         display: inline-block;
         width: 5px;
         height: auto;
-        margin-right: 15px;
+        margin-right: 5px;
+        @media screen and (min-width: 768px) {
+            margin-right: 15px;}
     }
     @media screen and (min-width: 768px) {
         font-size: medium
@@ -135,17 +187,29 @@
 }
 
 .lang{
-    display: flex;
-    align-items: baseline;
-    &::before{
-    content: none;
-}}
+    font-family: Roboto sans-serif;
+    font-size: 10px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+    color: whitesmoke;
+    &:first-child{
+        margin-top: 10px;
+    }
+    @media screen and (min-width: 768px) {
+        font-size: 12px
+    }    
+    
+    @media screen and (min-width: 1200px) {
+        font-size: 16px;
+    }
+}
 
 .fa-star,.fa-star-half-stroke{
-    font-size: 14px;
+    font-size: 10px;
     color: aquamarine;
 }
 
-.margin{
-    margin-left: 10px;
+.sidebar__margin{
+    margin-top: 5px;
+    margin-bottom: 10px;
 }

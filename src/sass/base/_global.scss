@@ -57,17 +57,17 @@ background-color: rgb(39, 38, 38);
 .title{
 	font-family: Raleway sans-serif;
 	font-weight: 500;
-	font-size: x-small;
+	font-size: 14px;
 	text-decoration: underline;
 	color: whitesmoke;
 	
 		
 	@media screen and (min-width: 768px) {
-		font-size: medium;
+		font-size: 22px;
 	}
 		
 	@media screen and (min-width: 1200px) {
-		font-size: x-large;
+		font-size: 28px;
 	}
 }
 

@@ -2,6 +2,9 @@
     margin-top: 40px;
 }
 
+.margin{
+    margin-top: 20px;
+}
 .portfolio__list{
     display: flex;
     flex-wrap: wrap;
@@ -48,26 +51,41 @@
 }
 .portfolio__description{
     display: flex;    
+    flex-direction: column;
     text-align: left;
     color: white;
     width: 100%;
-    font-size: 18px;
+    font-size: 8px;
     line-height: 1.56;
     letter-spacing: 0.03em;
     padding-left: 24px;
     padding-right: 24px;
+    @media screen and (min-width: 768px) {
+        font-size: 14px;
+        }
+    @media screen and (min-width: 1200px) {
+        font-size: 16px;
+    }
 }
 
 
 .portfolio__title{
-    font-size: 16px;
+    font-size: 10px;
     color: white;
     margin-left: 10px;
     @media screen and (min-width: 768px) {
-        font-size: 20px;
+        font-size: 16px;
     }
     
     @media screen and (min-width: 1200px) {
-        font-size: 24px;
+        font-size: 20px;
+    }
+}
+
+.portfolio__link{
+    text-decoration: underline;
+    color: lightskyblue;
+    &:visited{
+        color: violet;
     }
 }

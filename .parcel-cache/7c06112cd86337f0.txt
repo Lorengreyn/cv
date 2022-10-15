@@ -53,7 +53,7 @@
 72F:\cv\cv\node_modules\caniuse-lite\data\features\intersectionobserver.js133081385274398079 0
 20F:\cv\cv\.htmlnanorc132987303040000000 0
 25F:\cv\cv\.prettierrc.json132829413012774871 0
-32F:\cv\cv\dist\index.f7626f62.css133083290722406133 0
+32F:\cv\cv\dist\index.f7626f62.css133102224343479086 0
 66F:\cv\cv\node_modules\node-gyp-build-optional-packages\optional.js133081385209440658 0
 47F:\cv\cv\node_modules\csso\lib\clean\Comment.js133081385214542685 0
 18F:\cv\cv\.parcelrc132987303040000000 0
@@ -76,7 +76,7 @@
 61F:\cv\cv\node_modules\caniuse-lite\data\features\autofocus.js133081385260549132 0
 30F:\cv\cv\src\sass\_header.scss133081580673748043 0
 70F:\cv\cv\node_modules\source-map-support\browser-source-map-support.js133081385205935871 0
-13F:\cv\cv\dist133083300653318545 1
+13F:\cv\cv\dist133102224343499105 1
 56F:\cv\cv\node_modules\@parcel\core\src\InternalConfig.js133081385268484414 0
 91F:\cv\cv\node_modules\parcel-reporter-clean-dist\test\fixtures\files\embed\embed2\file3.txt133081385266261019 0
 42F:\cv\cv\node_modules\csso\lib\compress.js133081385214807254 0
@@ -89,7 +89,7 @@
 53F:\cv\cv\node_modules\@parcel\watcher\src\Debounce.hh133081385215183547 0
 36F:\cv\cv\node_modules\yaml\util.d.ts133081385266704124 0
 45F:\cv\cv\node_modules\weak-lru-cache\index.js133081385207718289 0
-24F:\cv\cv\src\js\viber.js133083300651774262 0
+24F:\cv\cv\src\js\viber.js133083310894231100 0
 41F:\cv\cv\node_modules\type-fest\readme.md133081385207708272 0
 31F:\cv\cv\node_modules\acorn\bin133081385205339484 1
 21F:\cv\cv\node_modules133081385280372234 1
@@ -121,7 +121,7 @@
 44F:\cv\cv\node_modules\xxhash-wasm\types.d.ts133081385212889429 0
 48F:\cv\cv\node_modules\term-size\vendor\.DS_Store133081385205795745 0
 49F:\cv\cv\node_modules\cosmiconfig\dist\types.d.ts133081385225737208 0
-31F:\cv\cv\src\sass\_sidebar.scss133082623326144557 0
+31F:\cv\cv\src\sass\_sidebar.scss133102225541749885 0
 16F:\cv\cv\src\img133081492562396860 1
 69F:\cv\cv\node_modules\caniuse-lite\data\features\custom-elementsv1.js133081385272657592 0
 48F:\cv\cv\node_modules\@parcel\cache\lib\index.js133081385212106151 0
@@ -153,7 +153,7 @@
 84F:\cv\cv\node_modules\parcel-reporter-clean-dist\test\fixtures\packageV5\files\embed133081385267009607 1
 54F:\cv\cv\node_modules\@parcel\core\lib\public\Asset.js133081385214947386 0
 79F:\cv\cv\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\Doxyfile133081385210553437 0
-34F:\cv\cv\src\partials\sidebar.html133083293497834450 0
+34F:\cv\cv\src\partials\sidebar.html133102225159080522 0
 81F:\cv\cv\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_copy.c133081385217246312 0
 53F:\cv\cv\node_modules\css-tree\lib\syntax\node\Raw.js133081385270074799 0
 67F:\cv\cv\node_modules\fast-glob\out\providers\matchers\matcher.d.ts133081385246252391 0
@@ -203,7 +203,7 @@
 63F:\cv\cv\node_modules\@parcel\optimizer-css\lib\CSSOptimizer.js133081385206765494 0
 72F:\cv\cv\node_modules\@babel\highlight\node_modules\color-name\README.md133081385207498086 0
 39F:\cv\cv\node_modules\fclone\bower.json133081385209470708 0
-32F:\cv\cv\src\partials\about.html133082630437726539 0
+32F:\cv\cv\src\partials\about.html133101240592469580 0
 55F:\cv\cv\node_modules\@parcel\core\src\applyRuntimes.js133081385214727156 0
 56F:\cv\cv\node_modules\lmdb\dependencies\lz4\lib\xxhash.c133081385268474400 0
 29F:\cv\cv\node_modules\globals133081385211006593 1
@@ -221,7 +221,7 @@
 27F:\cv\cv\src\img\barber.jpg133081327032950022 0
 88F:\cv\cv\node_modules\parcel-reporter-clean-dist\test\fixtures\packageV4\files\file1.txt133081385221730467 0
 35F:\cv\cv\node_modules\parent-module133081385208016308 1
-26F:\cv\cv\src\img\icons.svg133078210577780071 0
+26F:\cv\cv\src\img\icons.svg133102216458540781 0
 47F:\cv\cv\node_modules\htmlnano\docs\sidebars.js133081385216357071 0
 52F:\cv\cv\node_modules\@parcel\core\lib\AssetGraph.js133081385215369374 0
 26F:\cv\cv\src\img\photo.jpg132925461065461974 0
@@ -307,7 +307,7 @@
 73F:\cv\cv\node_modules\@parcel\transformer-js\parcel-swc.darwin-arm64.node133081385271325347 0
 46F:\cv\cv\node_modules\abortcontroller-polyfill133081385213815460 1
 72F:\cv\cv\node_modules\caniuse-lite\data\features\high-resolution-time.js133081385273900594 0
-34F:\cv\cv\dist\photo_t.6706b8d8.jpg133083290722606354 0
+34F:\cv\cv\dist\photo_t.6706b8d8.jpg133102217190651214 0
 69F:\cv\cv\node_modules\entities\lib\generated\decode-data-xml.d.ts.map133081385214452586 0
 54F:\cv\cv\node_modules\nth-check\lib\esm\compile.js.map133081385213504277 0
 37F:\cv\cv\node_modules\acorn\bin\acorn133081385205815769 0
@@ -752,7 +752,7 @@
 34F:\cv\cv\node_modules\mdn-data\api133081385213645287 1
 65F:\cv\cv\node_modules\caniuse-lite\data\features\web-bluetooth.js133081385277518936 0
 67F:\cv\cv\node_modules\@parcel\optimizer-htmlnano\src\svgMappings.js133081385210373276 0
-31F:\cv\cv\dist\index.975ef6c8.js133083290722686449 0
+31F:\cv\cv\dist\index.975ef6c8.js133102217190060672 0
 29F:\cv\cv\node_modules\timsort133081385211885953 1
 54F:\cv\cv\node_modules\nth-check\lib\esm\index.d.ts.map133081385213655296 0
 57F:\cv\cv\node_modules\css-tree\lib\common\adopt-buffer.js133081385206855571 0
@@ -1625,7 +1625,7 @@
 49F:\cv\cv\node_modules\sass\types\value\index.d.ts133081385268161310 0
 50F:\cv\cv\node_modules\sass\types\value\number.d.ts133081385268374306 0
 47F:\cv\cv\node_modules\@parcel\utils\src\path.js133081385266321057 0
-35F:\cv\cv\dist\index.d41e5f43.js.map133083290722756506 0
+35F:\cv\cv\dist\index.d41e5f43.js.map133102217190160756 0
 50F:\cv\cv\node_modules\commander\typings\index.d.ts133081385212707462 0
 51F:\cv\cv\node_modules\@parcel\namer-default\LICENSE133081385205582664 0
 38F:\cv\cv\node_modules\merge2\README.md133081385208247155 0
@@ -1713,7 +1713,7 @@
 61F:\cv\cv\node_modules\css-tree\lib\definition-syntax\parse.js133081385269580362 0
 73F:\cv\cv\node_modules\caniuse-lite\data\features\constraint-validation.js133081385270254977 0
 44F:\cv\cv\node_modules\immutable\package.json133081385213494269 0
-37F:\cv\cv\dist\photo_m@2x.c5bb3ea4.jpg133083290722335868 0
+37F:\cv\cv\dist\photo_m@2x.c5bb3ea4.jpg133102217190190782 0
 45F:\cv\cv\node_modules\react-error-overlay\lib133081385206186096 1
 55F:\cv\cv\node_modules\posthtml-expressions\changelog.md133081385212727485 0
 49F:\cv\cv\node_modules\react-error-overlay\LICENSE133081385205040760 0
@@ -2236,7 +2236,7 @@
 64F:\cv\cv\node_modules\lmdb\dependencies\lz4\lib\liblz4-dll.rc.in133081385270818158 0
 50F:\cv\cv\node_modules\cosmiconfig\dist\readFile.js133081385212647417 0
 60F:\cv\cv\node_modules\lmdb\dependencies\lz4\lib\liblz4.pc.in133081385270828144 0
-31F:\cv\cv\dist\index.e9fba61a.js133083300653288514 0
+31F:\cv\cv\dist\index.e9fba61a.js133102217190260867 0
 52F:\cv\cv\node_modules\escape-string-regexp\readme.md133081385208267172 0
 55F:\cv\cv\node_modules\lmdb\dependencies\lz4\lib\LICENSE133081385213176057 0
 53F:\cv\cv\node_modules\lmdb\dependencies\lz4\lib\lz4.c133081385216586292 0
@@ -3060,7 +3060,7 @@
 53F:\cv\cv\node_modules\chrome-trace-event\package.json133081385206568790 0
 55F:\cv\cv\node_modules\@swc\helpers\src\_ts_decorate.mjs133081385270998302 0
 62F:\cv\cv\node_modules\chrome-trace-event\dist\trace-event.d.ts133081385211026623 0
-37F:\cv\cv\dist\photo_t@2x.60a4e04f.jpg133083290722606354 0
+37F:\cv\cv\dist\photo_t@2x.60a4e04f.jpg133102217190090700 0
 60F:\cv\cv\node_modules\chrome-trace-event\dist\trace-event.js133081385205815769 0
 64F:\cv\cv\node_modules\chrome-trace-event\dist\trace-event.js.map133081385207628192 0
 39F:\cv\cv\node_modules\chokidar\index.js133081385209690146 0
@@ -3255,7 +3255,7 @@
 62F:\cv\cv\node_modules\@parcel\core\src\public\PluginOptions.js133081385270517550 0
 53F:\cv\cv\node_modules\caniuse-lite\data\regions\PN.js133081385275853715 0
 53F:\cv\cv\node_modules\caniuse-lite\data\regions\PR.js133081385275905464 0
-36F:\cv\cv\dist\Phonebook.fd60d121.jpg133083290722696460 0
+36F:\cv\cv\dist\Phonebook.fd60d121.jpg133102217190160756 0
 53F:\cv\cv\node_modules\caniuse-lite\data\regions\PS.js133081385275995569 0
 53F:\cv\cv\node_modules\caniuse-lite\data\regions\PY.js133081385276055622 0
 53F:\cv\cv\node_modules\caniuse-lite\data\regions\QA.js133081385276065649 0
@@ -3874,7 +3874,7 @@
 46F:\cv\cv\node_modules\@swc\helpers\lib\_get.js133081385252541254 0
 57F:\cv\cv\node_modules\@swc\helpers\lib\_inherits_loose.js133081385256498989 0
 70F:\cv\cv\node_modules\@swc\helpers\lib\_initializer_define_property.js133081385264485212 0
-33F:\cv\cv\dist\barber.4e4708d6.jpg133083290722566324 0
+33F:\cv\cv\dist\barber.4e4708d6.jpg133102217190010625 0
 53F:\cv\cv\node_modules\@swc\helpers\lib\_instanceof.js133081385264585306 0
 70F:\cv\cv\node_modules\@swc\helpers\lib\_is_native_reflect_construct.js133081385265671826 0
 51F:\cv\cv\node_modules\@parcel\utils\src\throttle.js133081385267772178 0
@@ -4099,7 +4099,7 @@
 50F:\cv\cv\node_modules\@parcel\source-map\README.md133081385215587837 0
 71F:\cv\cv\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-web133081385269600397 1
 101F:\cv\cv\node_modules\@parcel\source-map\parcel_sourcemap_wasm\dist-web\parcel_sourcemap_wasm_bg.wasm133081385269700483 0
-35F:\cv\cv\dist\IceCream.9617b43a.jpg133083290722416169 0
+35F:\cv\cv\dist\IceCream.9617b43a.jpg133102217190190782 0
 73F:\cv\cv\node_modules\@parcel\source-map\parcel_sourcemap_node\Cargo.toml133081385269285179 0
 66F:\cv\cv\node_modules\@parcel\source-map\parcel_sourcemap_node\src133081385269245145 1
 103F:\cv\cv\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.linux-arm-gnueabihf.node133081385265573750 0
@@ -4254,7 +4254,7 @@
 98F:\cv\cv\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-module-fallback133081385269265168 1
 96F:\cv\cv\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias-exclude133081385268759339 1
 96F:\cv\cv\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias133081385268874941 1
-24F:\cv\cv\dist\index.html133083290722866593 0
+24F:\cv\cv\dist\index.html133102218373020333 0
 97F:\cv\cv\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-main-directory133081385269245145 1
 51F:\cv\cv\node_modules\@nodelib\fs.scandir\out\types133081385215017448 1
 93F:\cv\cv\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-false133081385269335244 1
@@ -4279,7 +4279,7 @@
 106F:\cv\cv\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\nested.js133081385267019614 0
 109F:\cv\cv\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\package.json133081385269084785 0
 107F:\cv\cv\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\subfolder1133081385268171329 1
-36F:\cv\cv\dist\WebStudio.0034c2f9.jpg133083290722606354 0
+36F:\cv\cv\dist\WebStudio.0034c2f9.jpg133102217190090700 0
 118F:\cv\cv\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser-alias\subfolder1\subfolder2133081385268181328 1
 101F:\cv\cv\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser\browser.js133081385214422559 0
 98F:\cv\cv\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser\main.js133081385266391127 0
@@ -4392,7 +4392,7 @@
 55F:\cv\cv\node_modules\@parcel\core\test\fixtures\parcel133081385272143493 1
 56F:\cv\cv\node_modules\@parcel\core\test\fixtures\plugins133081385268211363 1
 77F:\cv\cv\node_modules\@parcel\core\test\fixtures\targets-default-distdir-none133081385272113449 1
-31F:\cv\cv\dist\index.d41e5f43.js133083290722686449 0
+31F:\cv\cv\dist\index.d41e5f43.js133102217190060672 0
 76F:\cv\cv\node_modules\@parcel\core\test\fixtures\targets-default-distdir-one133081385272123464 1
 89F:\cv\cv\node_modules\@parcel\core\test\fixtures\targets-default-distdir-two\package.json133081385272133466 0
 90F:\cv\cv\node_modules\@parcel\core\test\fixtures\targets-default-distdir-none\package.json133081385272113449 0
@@ -4670,7 +4670,7 @@
 78F:\cv\cv\node_modules\@babel\highlight\node_modules\color-convert\CHANGELOG.md133081385206316229 0
 80F:\cv\cv\node_modules\@babel\highlight\node_modules\color-convert\conversions.js133081385207688256 0
 78F:\cv\cv\node_modules\@babel\highlight\node_modules\color-convert\package.json133081385205785737 0
-36F:\cv\cv\dist\Filmoteka.ee95eafc.jpg133083290722646391 0
+36F:\cv\cv\dist\Filmoteka.ee95eafc.jpg133102217190661205 0
 75F:\cv\cv\node_modules\@babel\highlight\node_modules\color-convert\README.md133081385210778828 0
 74F:\cv\cv\node_modules\@babel\highlight\node_modules\color-convert\route.js133081385211376943 0
 71F:\cv\cv\node_modules\@babel\highlight\node_modules\chalk\index.js.flow133081385207508092 0
@@ -4710,13 +4710,13 @@
 35F:\cv\cv\node_modules\.bin\sass.cmd133081385278120071 0
 35F:\cv\cv\node_modules\.bin\svgo.ps1133081385278120071 0
 37F:\cv\cv\node_modules\.bin\terser.ps1133081385278120071 0
-33F:\cv\cv\dist\binary.aa74e6f6.jpg133083290722566324 0
-32F:\cv\cv\dist\icons.21bad73c.svg133083290722556295 0
-31F:\cv\cv\dist\index.8cb06552.js133083290722646391 0
-35F:\cv\cv\dist\index.8cb06552.js.map133083290722716475 0
-35F:\cv\cv\dist\index.975ef6c8.js.map133083290722756506 0
-35F:\cv\cv\dist\index.e9fba61a.js.map133083300653308530 0
-36F:\cv\cv\dist\index.f7626f62.css.map133083290722466217 0
-32F:\cv\cv\dist\photo.7468078f.jpg133083290722706472 0
-35F:\cv\cv\dist\photo@2x.833b62d0.jpg133083290722566324 0
-34F:\cv\cv\dist\photo_m.b8436e8e.jpg133083290722506265 0
+33F:\cv\cv\dist\binary.aa74e6f6.jpg133102217190641192 0
+32F:\cv\cv\dist\icons.21bad73c.svg133102217191031539 0
+31F:\cv\cv\dist\index.8cb06552.js133102217190971500 0
+35F:\cv\cv\dist\index.8cb06552.js.map133102217191031539 0
+35F:\cv\cv\dist\index.975ef6c8.js.map133102217190160756 0
+35F:\cv\cv\dist\index.e9fba61a.js.map133102217190290875 0
+36F:\cv\cv\dist\index.f7626f62.css.map133102224343489091 0
+32F:\cv\cv\dist\photo.7468078f.jpg133102217190150754 0
+35F:\cv\cv\dist\photo@2x.833b62d0.jpg133102217190260867 0
+34F:\cv\cv\dist\photo_m.b8436e8e.jpg133102217189930565 0
